@@ -1,0 +1,98 @@
+table {
+    text-align: center;
+}
+
+td {
+    border: solid black 1px;
+    height: 150px;
+    width: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+div {
+    width: 1730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.un {
+    outline: none;
+}
+
+.deux {
+    outline: none;
+}
+
+.trois {
+    outline: none;
+}
+
+.quatre {
+    outline: none;
+}
+
+.cinq {
+    outline: none;
+}
+
+.six {
+    outline: none;
+}
+
+.sept {
+    outline: none;
+}
+
+.huit {
+    outline: none;
+}
+
+.neuf {
+    outline: none;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.vert-olive {
+    background-color: turquoise;
+}
+
+.vert-clair {
+    background-color: springgreen;
+}
+
+.bleu-ciel {
+    background-color: skyblue;
+}
+
+.jaune-vif {
+    background-color: yellow;
+}
+
+.jaune-orange {
+    background-color: gold;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.rose-clair {
+    background-color: #FD7272;
+}
+
+.rose {
+    background-color: #eb3b5a;
+}
+
+.orange-rouge {
+    background-color: #cd6133;
+}
