@@ -10,6 +10,10 @@ td {
     outline: none;
 }
 
+.bloc {
+    display: none;
+}
+
 div {
     width: 1730px;
     display: flex;
@@ -95,4 +99,48 @@ h2 {
 
 .orange-rouge {
     background-color: #cd6133;
+}
+
+@media screen and (max-width:450Px) {
+    body {
+        width: 30%;
+        height: 30%;
+    }
+    td {
+        display: grid;
+        height: 1500px;
+        width: 1000px;
+        font-size: 5em;
+    }
+    div {
+        width: 1730px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bloc {
+        display: none;
+    }
+}
+
+@media screen and (max-width:250Px) {
+    body {
+        width: 30%;
+        height: 30%;
+    }
+    td {
+        display: grid;
+        height: 600px;
+        width: 600px;
+        font-size: xx-large;
+    }
+    div {
+        width: 1730px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bloc {
+        display: none;
+    }
 }
