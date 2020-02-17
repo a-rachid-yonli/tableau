@@ -3,9 +3,8 @@ table {
 }
 
 td {
-    border: solid black 1px;
-    height: 150px;
-    width: 75px;
+    height: 125px;
+    width: 9rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     outline: none;
 }
@@ -101,46 +100,110 @@ h2 {
     background-color: #cd6133;
 }
 
-@media screen and (max-width:450Px) {
-    body {
-        width: 30%;
-        height: 30%;
+@media screen and (max-width:425px) {
+    h1 {
+        font-size: small;
+    }
+    p {
+        font-size: small;
     }
     td {
-        display: grid;
-        height: 1500px;
-        width: 1000px;
-        font-size: 5em;
+        height: 100px;
+        width: 8rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        outline: none;
     }
     div {
-        width: 1730px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-    }
-    .bloc {
-        display: none;
+        align-items: center;
     }
 }
 
-@media screen and (max-width:250Px) {
-    body {
-        width: 30%;
-        height: 30%;
+@media screen and (max-width:350px) {
+    h1 {
+        font-size: x-small;
     }
-    td {
-        display: grid;
-        height: 600px;
-        width: 600px;
-        font-size: xx-large;
+    p {
+        font-size: x-small;
     }
     div {
-        width: 1730px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:275px) {
+    h1 {
+        font-size: xx-small;
+    }
+    p {
+        font-size: xx-small;
+    }
+    td {
+        height: 75px;
+        width: 6rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        outline: none;
+    }
+    div {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-    .bloc {
-        display: none;
+}
+
+@media screen and (max-width:249px) {
+    h1 {
+        font-size: 7px;
+    }
+    p {
+        font-size: 7px;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:200px) {
+    h1 {
+        font-size: 5px;
+    }
+    p {
+        font-size: 5px;
+    }
+    td {
+        height: 50px;
+        width: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        outline: none;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:149px) {
+    h1 {
+        font-size: 3px;
+    }
+    p {
+        font-size: 3px;
+    }
+    td {
+        height: 25px;
+        width: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        outline: none;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
