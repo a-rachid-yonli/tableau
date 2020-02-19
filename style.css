@@ -32,6 +32,19 @@ td {
     display: none;
 }
 
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .un,
 .deux,
 .trois,
@@ -127,21 +140,21 @@ td {
         border-spacing: 0.2rem;
     }
     .molecule {
-        font-size: 0.1rem;
+        font-size: 10px;
     }
     span {
-        font-size: 0.05rem;
+        font-size: 5px;
     }
     td {
         font-family: Georgia;
         outline: none;
         border: solid black 1px;
-        width: 0.5rem;
-        height: 0.5rem;
+        width: 3px;
+        height: 5px;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
     body {
         margin: 0px;
         padding: 0px;
@@ -155,16 +168,14 @@ td {
         border-spacing: 0.2rem;
     }
     .molecule {
-        font-size: 0.1rem;
+        font-size: 10px;
     }
     span {
-        font-size: 0.02rem;
+        font-size: 3px;
     }
     td {
         font-family: Georgia;
         outline: none;
         border: solid black 1px;
-        width: 0.2rem;
-        height: 0.3rem;
     }
 }
